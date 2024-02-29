@@ -5,7 +5,7 @@ jobs:
   Install-Go:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Go 1.21.3
+      - name: Setup Go
         uses: actions/setup-go@v4
         with:
           #go-version: '1.21.3'
@@ -14,7 +14,7 @@ jobs:
   Install-NodeJS:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup NodeJS 21.1.0
+      - name: Setup NodeJS
         uses: actions/setup-node@v3
         with:
           node-version: '21.1.0'
